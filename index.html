@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="ions.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <div class="flexbox">
+        <div class="section section1">
+
+
+                <h1>K <sub>sp</sub> </h1>
+
+
+            <div class="equ" id="s1d1">
+                <div class="prompt">
+                    <input type="text" placeholder="AgBr" /> <span class="operatorSpan">⇌</span>
+                    <input type="text" placeholder="Ag" style="width: 35px" id="KspOne" /><sup><input id="KspOneExp" class="supInp" placeholder="+" type="text" style="width: 17px; line-height: 12px; height: 12px; font-size: 12px;"></sup> <span class="operatorSpan" style="margin-right: 10px">+</span>
+                    <input type="text" placeholder="Br" style="width: 35px" id="KspTwo" /><sup><input id="KspTwoExp" class="supInp" placeholder="-" type="text" style="width: 17px; line-height:128px; height: 12px; font-size: 12px;"></sup>
+
+                </div>
+                <button id="s1b1" onclick="calcKsp()">solve</button>
+            </div>
+
+            <h2>K <sub>sp</sub> = <span id="kspResult">[][]</span></h2>
+
+        </div>
+
+
+    </div>
+
+</body>
+</html>
